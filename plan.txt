@@ -1,0 +1,18 @@
+Each player will be its own object
+- will hold an array of their chess pieces
+- will have an advancing direction to determine where the pawns should go
+- ammount of time spent on their turn
+
+
+Each chess piece will be an object that has a 
+- position on the board in the form of [x, y] x rows y columns index
+- Type of the piece ie rook king knight etc
+
+
+
+type of piece will help determine 
+possible moves = the array of all possible moves of the piece given the current board state 
+
+
+Later things to implement:
+- super king chess:https://www.youtube.com/watch?v=_amyj5yxcgQ 
